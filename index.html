@@ -39,7 +39,7 @@
     <header class="header" id="home">
       <div class="container header-container">
         <nav class="header-nav">
-          <a class="logo" href="./index.html">
+          <a class="logo header-logo" href="./index.html">
             Web<span class="logo-accent">Studio</span></a
           >
           <ul class="header-menu">
@@ -76,7 +76,77 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn">
+          <svg class="burger-btn-icon" width="24" height="24">
+            <use href="./images/icons.svg#menu"></use>
+          </svg>
+        </button>
       </div>
+      <div class="mob-menu ">
+        <div class="mob-menu-wrap container">
+          <button class="close-btn mobile">
+            <svg class="close-btn-icon" width="8" height="8">
+              <use href="./images/icons.svg#close"></use>
+            </svg>
+          </button>
+          <nav class="mob-nav-menu">
+            <ul class="mob-nav-list">
+              <li class="mob-nav-item">
+                <a href="#" class="mob-nav-link current">Studio</a>
+              </li>
+              <li class="mob-nav-item">
+                <a href="#" class="mob-nav-link">Portfolio</a>
+              </li>
+              <li class="mob-nav-item">
+                <a href="#" class="mob-nav-link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mob-menu-contacts">
+            <ul class="mob-contacts-list">
+              <li class="mob-contacts-item">
+                <a href="#" class="mob-contacts-link current"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mob-contacts-item">
+                <a href="#" class="mob-contacts-link">info@devstudio.com</a>
+              </li>
+            </ul>
+          </address>
+          <ul class="socials-list mobile">
+            <li class="socials-item">
+              <a href="" class="socials-list-link">
+                <svg class="socials-icon" width="24" height="24">
+                  <use href="./images/icons.svg#instagram-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a href="" class="socials-list-link">
+                <svg class="socials-icon" width="24" height="24">
+                  <use href="./images/icons.svg#twitter-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a href="" class="socials-list-link">
+                <svg class="socials-icon" width="24" height="24">
+                  <use href="./images/icons.svg#facebook-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-item">
+              <a href="" class="socials-list-link">
+                <svg class="socials-icon" width="24" height="24">
+                  <use href="./images/icons.svg#linkedin-icon"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
     </header>
     <!--#endregion-->
 
@@ -475,31 +545,31 @@
         </div>
         <div class="footer-socials-wrap">
           <p class="footer-social-title">Social media</p>
-          <ul class="footer-socials-list">
-            <li class="footer-socials-item">
-              <a href="" class="footer-list-link">
-                <svg class="footer-socials-icon" width="24" height="24">
+          <ul class="socials-list">
+            <li class="socials-item">
+              <a href="" class="socials-list-link">
+                <svg class="socials-icon" width="24" height="24">
                   <use href="./images/icons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-socials-item">
-              <a href="" class="footer-list-link">
-                <svg class="footer-socials-icon" width="24" height="24">
+            <li class="socials-item">
+              <a href="" class="socials-list-link">
+                <svg class="socials-icon" width="24" height="24">
                   <use href="./images/icons.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-socials-item">
-              <a href="" class="footer-list-link">
-                <svg class="footer-socials-icon" width="24" height="24">
+            <li class="socials-item">
+              <a href="" class="socials-list-link">
+                <svg class="socials-icon" width="24" height="24">
                   <use href="./images/icons.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-socials-item">
-              <a href="" class="footer-list-link">
-                <svg class="footer-socials-icon" width="24" height="24">
+            <li class="socials-item">
+              <a href="" class="socials-list-link">
+                <svg class="socials-icon" width="24" height="24">
                   <use href="./images/icons.svg#linkedin"></use>
                 </svg>
               </a>
@@ -540,7 +610,7 @@
 
     <!--#region Modal-->
 
-    <div class="backdrop is-open">
+    <div class="backdrop is-hidden">
       <div class="modal">
         <button
           class="modal-btn"
