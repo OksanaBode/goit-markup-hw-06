@@ -832,6 +832,7 @@ ul {
   flex-wrap: wrap;
   gap: 72px;
   justify-content: center;
+  pad
 }
 
 .logo-footer {
@@ -972,6 +973,8 @@ ul {
   }
 
   .footer .container {
+    padding-right: 15px;
+    padding-left: 15px;
     flex-wrap: nowrap;
     gap: 0;
     padding-left: 0;
